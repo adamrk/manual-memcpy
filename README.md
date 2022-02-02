@@ -7,7 +7,8 @@ Benchmarks that compare copying data between two `Vec<u8>`s using
 Run the benchmark with `cargo bench`.
 
 ### Results
-On Intel i7-7500U (2.70 GHz) running Ubuntu 21.04
+Compiled with `rustc 1.60.0-nightly (498eeb72f 2022-01-31)`.
+Run on Intel i7-7500U (2.70 GHz) with Ubuntu 21.04.
 ```
 copy/16KiB_stdlib       time:   [2.0702 us 2.0888 us 2.1052 us]                               
 Found 13 outliers among 100 measurements (13.00%)
